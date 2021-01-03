@@ -1,0 +1,16 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/linear_interpolator" >
+
+    <translate
+        android:duration="200"
+        android:fromYDelta="10%p"
+        android:startOffset="200"
+        android:toYDelta="0%p" />
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:duration="200"
+        />
+
+</set>
